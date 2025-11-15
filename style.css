@@ -1,6 +1,4 @@
 
-
-
 /* ========== GLOBAL RESET ========== */
 * {
   margin: 0;
@@ -100,11 +98,13 @@ nav .logo {
   object-fit: cover;
   border: 6px solid #00d9ff;
   /* box-shadow: 0 0 20px #00d9ff; */
-  /* transition: 0.4s; */
+  transition: 0.4s;
+  transition-duration: 500ms;
+  
 }
 
 .profile-img:hover {
-  transform: scale(1.08) rotate(3deg);
+  transform: scale(1.08);
   box-shadow: 0 0 30px #00d9ff;
 }
 
