@@ -4,13 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shubham Giram | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <!-- Navbar -->
   <nav>
     <h1 class="logo">Shubham Giram</h1>
-    <ul>
+
+    <!-- CSS‑only Hamburger -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" />
+    <label for="nav-toggle" class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -22,11 +31,11 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero" id="hero">
     <div class="hero-container">
-      <img src="./shubhs.jpg" alt="Shubham Giram" class="profile-img" />
+      <img src="shubhs.jpg" alt="Shubham Giram" class="profile-img" />
       <div class="hero-text">
-        <h2>Hi, I'm <span>Shubham Giram</span> </h2>
+        <h2>Hi, I'm <span>Shubham Giram</span></h2>
         <p>A passionate <b>C++ Developer</b> focused on building efficient systems and innovative projects.</p>
         <a href="#projects" class="btn">View My Work</a>
       </div>
@@ -66,10 +75,6 @@
         <h3>Hospital Services with Ambulance Tracking</h3>
         <p>Developed a real-time ambulance tracking system using HTML, CSS, JS, and SQL.</p>
       </div>
-      <!-- <div class="card">
-        <h3>IoT Camera Management System</h3>
-        <p>Created a smart IoT-based camera management interface for monitoring and automation.</p>
-      </div> -->
     </div>
   </section>
 
@@ -85,8 +90,8 @@
       </div>
       <div class="card">
         <h3>Higher Secondary Certificate (HSC)</h3>
-        <p><b>Yogeshwari Mahavidyalaya ,Ambajogai</b></p>
-        <p>percentage:68.31%</p>
+        <p><b>Yogeshwari Mahavidyalaya, Ambajogai</b></p>
+        <p>Percentage: 68.31%</p>
       </div>
       <div class="card">
         <h3>Secondary School Certificate (SSC)</h3>
@@ -115,7 +120,7 @@
     </div>
   </section>
 
-  <!-- Volunteer Experience Section -->
+  <!-- Volunteer Section -->
   <section id="volunteer" class="volunteer">
     <h2>Volunteer Experience</h2>
     <div class="grid">
@@ -133,13 +138,13 @@
   <!-- Contact Section -->
   <section id="contact" class="contact">
     <h2>Contact</h2>
-    <p>Let’s collaborate and build something great together </p>
+    <p>Let’s collaborate and build something great together</p>
     <a href="mailto:giramshubham2017@gmail.com" class="btn">Email Me</a>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Shubham Giram | <a href="https://www.linkedin.com/in/shubham-giram-8759a5202/">Linkedin</a> </p>
+    <p>© 2025 Shubham Giram | <a href="https://www.linkedin.com/in/shubham‑giram-8759a5202/">LinkedIn</a></p>
   </footer>
 </body>
 </html>
